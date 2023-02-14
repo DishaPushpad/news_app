@@ -35,7 +35,7 @@ const NewsItem =(props)=> {
                 By {author} on {new Date(date).toGMTString()}
               </small>
             </p>
-            <a href={newsUrl} target="_blank" className="btn btn-sm btn-dark">
+            <a href={newsUrl} target="/" className="btn btn-sm btn-dark">
               Read More
             </a>
           </div>
